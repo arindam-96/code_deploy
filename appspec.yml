@@ -8,6 +8,14 @@ files:
     destination: /var/www/html   
   - source: script/clouds.jpg
     destination: /var/www/html 
+  - source: script/Trex.jpg
+    destination: /var/www/html
+  - source: script/daspletosaurus.jpg
+    destination: /var/www/html
+  - source: script/albertosaurus.jpg
+    destination: /var/www/html
+  - source: script/alioramus.jpg
+    destination: /var/www/html      
 hooks:
   BeforeInstall:
     - location: script/install_dependencies.sh
